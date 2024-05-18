@@ -7,6 +7,13 @@ html {
     background-color:lightgrey;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+}
 .icon-recipes {
     display: inline-block;
     width: 45%;
