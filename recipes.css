@@ -1,3 +1,15 @@
 * {
     background-color: lightgrey;
 }
+
+.icon-recipes {
+    color: darkslategray;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 20%;
+}
