@@ -4,28 +4,60 @@
 }
 
 html {
-    background-color:lightgrey;
-    text-align: center;
+    background-color: lightgrey;
 }
-
 a {
     text-decoration: none;
 }
+
 ul li {
     list-style-type: none;
 }
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    /* text-align: center; */
+    background-color: rgb(168, 159, 159);
+}
+
+.title {
+    font-size: 70px;
+    padding: 30px;
+    text-align: center;
+    font-family: Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
 .icon-recipes {
     display: inline-block;
-    width: 45%;
-    color: darkslategray;
+    width: 25%;
+    color: rgb(46, 45, 45);
     font-family: "Times New Roman", sans-serif;
     font-size: 22px;
     text-align: center;
     background-color: grey;
-    border: 1px solid red;
+    box-shadow: 2px 20px 30px;
+    padding: 50px;
+    margin: 10px;
 }
 
 img {
+    width: 100%;
     height: auto;
-    width: 20%;
+}
+
+footer {
+    background-color: rgb(61, 57, 57);
+}
+
+footer > ul {
+    color: rgb(160, 149, 149);
+    display: flex;
+    justify-content: center;
+}
+
+footer > ul > li {
+    /* flex: 1; */
+    padding: 100px;
+    font-size: 1.5rem;
 }
