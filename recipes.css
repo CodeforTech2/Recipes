@@ -38,10 +38,7 @@ ul li {
 .icon-recipes {
     /* flex: 1; */
     width: 400px;
-    height: 500px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-
+    height: 450px;
     color: rgb(46, 45, 45);
     font-family: "Times New Roman", sans-serif;
     font-size: 22px;
