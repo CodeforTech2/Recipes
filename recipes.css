@@ -3,21 +3,40 @@
     padding: 0;
 }
 
+:root {
+    --primary-color: rgb(160, 149, 149);
+}
+
 html {
     background-color: lightgrey;
 }
 a {
     text-decoration: none;
+    color: var(--primary-color);
 }
 
 ul li {
     list-style-type: none;
 }
 
+/* ===============   Header =============== */
+
 header {
     height: 100vh;
     background-color: rgb(61, 57, 57);
 }
+
+nav {
+    height: 10vh;
+}
+
+.nav-list:hover {
+    color: red;
+    text-decoration: underline;
+    border-bottom: 2px solid;
+}
+
+/* ===============   Main Container =============== */
 
 .container {
     max-width: 1500px;
