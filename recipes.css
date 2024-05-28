@@ -28,12 +28,18 @@ header {
 
 nav {
     height: 10vh;
+    display: flex;
+}
+
+.nav-list {
+    padding: 15px;
+    font-size: 25px;
 }
 
 .nav-list:hover {
     color: red;
     text-decoration: underline;
-    border-bottom: 2px solid;
+    scale: 1.2;
 }
 
 /* ===============   Main Container =============== */
