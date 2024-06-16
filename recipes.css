@@ -27,9 +27,10 @@ header {
 }
 
 nav ul{
-    /* height: 10vh; */
+    height: 100px;
     background-color: #fff;
     display: flex;
+    align-items: center;
 }
 
 .nav-list {
@@ -39,12 +40,12 @@ nav ul{
 
 .lefties {
     display:flex;
+    align-items: flex-end;
     position: absolute;
     right: 0;
-    top: 0;
 }
 .nav-list-left{
-    padding: 15px;
+    padding: 10px 15px;
     font-size: 25px;
 }
 
