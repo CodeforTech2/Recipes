@@ -26,12 +26,24 @@ header {
     background-color: rgb(61, 57, 57);
 }
 
-nav {
-    height: 10vh;
+nav ul{
+    /* height: 10vh; */
+    background-color: #fff;
     display: flex;
 }
 
 .nav-list {
+    padding: 15px;
+    font-size: 25px;
+}
+
+.lefties {
+    display:flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.nav-list-left{
     padding: 15px;
     font-size: 25px;
 }
@@ -46,7 +58,7 @@ nav {
 
 .container {
     /* max-width: 1500px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     background-color: rgb(168, 159, 159);
 }
 
