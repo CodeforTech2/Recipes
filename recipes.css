@@ -24,6 +24,8 @@ ul li {
 header {
     height: 70vh;
     background-color: rgb(61, 57, 57);
+    background-image:url(/imgs/cooking\ bg.jpg);
+    background-repeat: no-repeat;
 }
 
 nav ul{
@@ -49,7 +51,7 @@ nav ul{
 
 .nav-list:hover {
     color: rgb(29, 28, 28);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 /* ===============   Main Container =============== */
