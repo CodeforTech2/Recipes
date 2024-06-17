@@ -27,10 +27,11 @@ header {
 }
 
 nav ul{
-    height: 100px;
+    /* height: 100px; */
     background-color: #fff;
     display: flex;
     align-items: center;
+    justify-content:space-between;
 }
 
 .nav-list {
@@ -38,21 +39,17 @@ nav ul{
     font-size: 25px;
 }
 
-.lefties {
-    display:flex;
-    align-items: flex-end;
-    position: absolute;
-    right: 0;
+.left {
+    display: flex;
 }
-.nav-list-left{
-    padding: 10px 15px;
-    font-size: 25px;
+.right {
+    display: flex;
 }
 
+
 .nav-list:hover {
-    color: red;
+    color: rgb(29, 28, 28);
     text-decoration: underline;
-    scale: 1.2;
 }
 
 /* ===============   Main Container =============== */
