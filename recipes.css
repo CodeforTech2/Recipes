@@ -25,7 +25,8 @@ header {
     height: 70vh;
     background-color: rgb(61, 57, 57);
     background-image:url(/imgs/cooking\ bg.jpg);
-    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size:cover;
 }
 
 nav ul{
