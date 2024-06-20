@@ -30,8 +30,9 @@ header {
 }
 
 nav ul{
-    /* height: 100px; */
-    background-color: #fff;
+    /* background-color: #fff; */
+    /* background-color: gray; */
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -41,12 +42,28 @@ nav ul{
     padding: 15px;
     font-size: 25px;
 }
-
 .left {
     display: flex;
 }
+
+.nav-list-right {
+    padding: 10px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.cart {
+    margin: 10px;
+    font-size: 25px;
+}
+.btn-nav{
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
 .right {
     display: flex;
+    align-items: center;
 }
 
 
