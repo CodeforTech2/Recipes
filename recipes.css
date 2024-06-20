@@ -22,7 +22,9 @@ ul li {
 /* ===============   Header =============== */
 
 header {
-    height: 70vh;
+    /* height: 70vh; */
+    height: 1000px;
+    position: relative;
     background-color: rgb(61, 57, 57);
     background-image:url(/imgs/cooking\ bg.jpg);
     /* background-position: center; */
@@ -70,6 +72,16 @@ nav ul{
 .nav-list:hover {
     color: rgb(29, 28, 28);
     /* text-decoration: underline; */
+}
+
+.welcome-container {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(236, 236, 236);
 }
 
 /* ===============   Main Container =============== */
