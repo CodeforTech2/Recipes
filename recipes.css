@@ -22,8 +22,8 @@ ul li {
 /* ===============   Header =============== */
 
 header {
-    /* height: 70vh; */
-    height: 1000px;
+    height: 80vh;
+    /* height: 1000px; */
     position: relative;
     background-color: rgb(61, 57, 57);
     background-image:url(/imgs/cooking\ bg.jpg);
