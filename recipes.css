@@ -5,6 +5,7 @@
 
 :root {
     --primary-color: rgb(160, 149, 149);
+    --secondary-color: rgb(147, 36, 97);
 }
 
 html {
@@ -70,7 +71,7 @@ nav ul{
 
 
 .nav-list:hover {
-    color: rgb(29, 28, 28);
+    color: var(--secondary-color);
     /* text-decoration: underline; */
 }
 
@@ -82,6 +83,28 @@ nav ul{
     transform: translate(-50%, -50%);
     text-align: center;
     color: rgb(236, 236, 236);
+}
+
+.welcome-container h3 {
+    color: lightgray;
+}
+
+.easy {
+    font-size: 70px;
+    padding: 20px;
+    /* color: rgb(147, 36, 97); */
+    color: var(--secondary-color);
+    text-shadow: 2px 2px 2px lightgoldenrodyellow;
+}
+.view-menu {
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: lightgoldenrodyellow;
 }
 
 /* ===============   Main Container =============== */
