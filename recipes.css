@@ -105,14 +105,18 @@ nav ul{
     border-radius: 10px;
     background-color: var(--secondary-color);
     color: lightgoldenrodyellow;
+    transition: 0.5s ease-in;
 }
 
+.view-menu:hover {
+    transform: scale(1.2);
+}
 /* ===============   Main Container =============== */
 
 .container {
     /* max-width: 1500px; */
     /* margin: 0 auto; */
-    background-color: rgb(168, 159, 159);
+    background-color: rgb(192, 192, 175);
 }
 
 .title {
@@ -125,7 +129,7 @@ nav ul{
 
 .recipes-block {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
     flex-wrap: wrap;
 }
@@ -140,9 +144,9 @@ nav ul{
     /* text-align: center; */
     background-color: grey;
     box-shadow: 2px 20px 30px;
-    /* padding: 50px; */
-    margin: 50px;
-    border-radius: 1%;
+    /* padding: 10px; */
+    margin: 10px;
+    border-radius: 10px;
 }
 
 img {
