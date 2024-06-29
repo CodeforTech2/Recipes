@@ -109,7 +109,8 @@ nav ul{
 }
 
 .view-menu:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    background-color: rgb(188, 49, 126);
 }
 /* ===============   Main Container =============== */
 
