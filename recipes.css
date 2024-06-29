@@ -136,26 +136,31 @@ nav ul{
 }
 
 .icon-recipes {
-    /* flex: 1; */
     width: 400px;
     height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: rgb(46, 45, 45);
     font-family: "Times New Roman", sans-serif;
     font-size: 22px;
-    /* text-align: center; */
-    background-color: grey;
-    box-shadow: 2px 20px 30px;
-    /* padding: 10px; */
+    background-color: rgb(192, 192, 175);
+    box-shadow: 2px 0px 30px var(--secondary-color);
     margin: 10px;
     border-radius: 10px;
 }
 
+
+.add-to-cart {
+    width: 30%;
+}
 img {
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 
-
+/* ================================================= */
 
 footer {
     background-color: rgb(61, 57, 57);
@@ -167,10 +172,17 @@ footer > ul {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 100px;
 }
 
-footer > ul > li {
-    padding: 70px;
+.footer-li {
+    padding: 0 70px;
     font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.footer-li:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
+    transform: scale(1.1);
 }
