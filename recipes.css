@@ -105,11 +105,11 @@ nav ul{
     border-radius: 10px;
     background-color: var(--secondary-color);
     color: lightgoldenrodyellow;
-    transition: 0.5s ease-in;
+    transition: 0.3s ease-out;
 }
 
 .view-menu:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 /* ===============   Main Container =============== */
 
