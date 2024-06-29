@@ -13,7 +13,7 @@ html {
 }
 a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--primary-color)
 }
 
 ul li {
@@ -26,15 +26,13 @@ header {
     height: 80vh;
     /* height: 1000px; */
     position: relative;
-    background-color: rgb(61, 57, 57);
     background-image:url(/imgs/cooking\ bg.jpg);
     /* background-position: center; */
     background-size:cover;
 }
 
 nav ul{
-    /* background-color: #fff; */
-    /* background-color: gray; */
+    background-color: whitesmoke;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -71,8 +69,7 @@ nav ul{
 
 
 .nav-list:hover {
-    color: var(--secondary-color);
-    /* text-decoration: underline; */
+    color: rgb(173, 18, 96);
 }
 
 .welcome-container {
@@ -170,6 +167,10 @@ nav ul{
     border: none;
     border-radius: 5px;
     font-size: 15px;
+}
+
+.add-to-cart:hover{
+    background-color: rgb(188, 49, 126);
 }
 img {
     width: 60%;
