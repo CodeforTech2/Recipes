@@ -25,6 +25,7 @@ header {
     /* top: 0; */
     /* overflow: hidden; */
     width: 100%;
+    box-shadow: 2px 0px 30px lightgoldenrodyellow;
 }
 nav ul {
     background-color: rgb(226, 226, 214);
