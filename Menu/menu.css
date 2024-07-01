@@ -9,7 +9,7 @@
 }
 
 html {
-    background-color: lightgrey;
+    background-color: rgb(226, 226, 214);
 }
 a {
     text-decoration: none;
@@ -20,6 +20,12 @@ ul li {
 }
 /* ===============   Header =============== */
 
+header {
+    position: fixed;
+    /* top: 0; */
+    /* overflow: hidden; */
+    width: 100%;
+}
 nav ul {
     background-color: rgb(226, 226, 214);
     padding: 10px;
@@ -69,13 +75,100 @@ nav ul li {
 }
 
 /* ===== Container menu ======= */
+
 .container-menu {
-    width: 80vw;
-    height: 80vh;
-    background-color: darkgray;
+    background-color: rgb(226, 226, 214);
     margin: 0 auto;
+    width: 1500px;
+    padding-top: 100px;
 }
 
 .title-menu {
     text-align: center;
+}
+
+.items-block {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.icon-recipes {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(46, 45, 45);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 22px;
+    /* box-shadow: 2px 0px 10px rgb(148, 148, 147); */
+    box-shadow: 2px 0px 10px rgb(173, 173, 146);
+    /* background-color: rgb(192, 192, 175); */
+    background-color: rgb(226, 226, 214);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.icon-recipes:hover{
+    box-shadow: 2px 0px 30px lightgoldenrodyellow;
+    cursor: default;
+}
+
+.item-description{
+    text-align: center;
+}
+
+.add-to-cart {
+    width: auto;
+    cursor: pointer;
+    padding: 7px 15px;
+    background-color: var(--secondary-color);
+    color: rgb(243, 243, 238);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.add-to-cart:hover{
+    background-color: rgb(188, 49, 126);
+}
+img {
+    width: 60%;
+    height: auto;
+}
+
+/* ================================================= */
+
+footer {
+    background-color: rgb(61, 57, 57);
+}
+
+footer > ul {
+    color: rgb(160, 149, 149);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.footer-li {
+    padding: 0 70px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.footer-li:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    color: var(--primary-color);
 }
