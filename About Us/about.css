@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: rgb(160, 149, 149);
+    --secondary-color: rgb(147, 36, 97);
+}
+
+html {
+    background-color: rgb(226, 226, 214);
+}
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/* ===============   Header =============== */
+
+header {
+    position: fixed;
+    /* top: 0; */
+    /* overflow: hidden; */
+    width: 100%;
+    box-shadow: 2px 0px 30px lightgoldenrodyellow;
+}
+nav ul {
+    background-color: rgb(226, 226, 214);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+nav ul li {
+    color: rgb(129, 121, 79);
+}
+
+.nav-list {
+    padding: 15px;
+    font-size: 25px;
+    /* transition: 0.5s ease-in; */
+}
+
+.nav-list:hover {
+    /* color: rgb(173, 18, 96); */
+    color: rgb(236, 5, 155);
+    transform: scale(1.1);
+}
+
+.left {
+    display: flex;
+}
+
+.nav-list-right {
+    padding: 10px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.cart {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.btn-nav {
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+
+/* ============== About Us Page ================= */
+
+.about-us {
+    height: 100vh;
+    padding-top: 100px;
+}
+
