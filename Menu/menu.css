@@ -46,7 +46,8 @@ nav ul li {
 }
 
 .nav-list:hover {
-    color: rgb(173, 18, 96);
+    /* color: rgb(173, 18, 96); */
+    color: rgb(236, 5, 155);
     transform: scale(1.1);
 }
 
@@ -87,7 +88,7 @@ nav ul li {
 .title-menu {
     text-align: center;
     padding: 20px 0;
-    color: rgb(221, 13, 148);
+    color: rgb(236, 5, 155);
     font-family:Cambria, Cochin, Georgia;
 }
 
@@ -138,7 +139,8 @@ nav ul li {
 }
 
 .add-to-cart:hover{
-    background-color: rgb(188, 49, 126);
+    /* background-color: rgb(188, 49, 126); */
+    background-color: rgb(236, 5, 155);;
 }
 img {
     width: 60%;
@@ -169,7 +171,8 @@ footer > ul {
 }
 
 .footer-li:hover {
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
+    color: rgb(236, 5, 155);
     cursor: pointer;
     transform: scale(1.1);
 }
