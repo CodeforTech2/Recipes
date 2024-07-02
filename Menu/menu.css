@@ -86,6 +86,9 @@ nav ul li {
 
 .title-menu {
     text-align: center;
+    padding: 20px 0;
+    color: rgb(221, 13, 148);
+    font-family:Cambria, Cochin, Georgia;
 }
 
 .items-block {
@@ -105,9 +108,7 @@ nav ul li {
     color: rgb(46, 45, 45);
     font-family: "Times New Roman", sans-serif;
     font-size: 22px;
-    /* box-shadow: 2px 0px 10px rgb(148, 148, 147); */
     box-shadow: 2px 0px 10px rgb(173, 173, 146);
-    /* background-color: rgb(192, 192, 175); */
     background-color: rgb(226, 226, 214);
     margin: 20px;
     border-radius: 10px;
@@ -118,6 +119,9 @@ nav ul li {
     cursor: default;
 }
 
+.item-title {
+    font-family: Cambria;
+}
 .item-description{
     text-align: center;
 }
