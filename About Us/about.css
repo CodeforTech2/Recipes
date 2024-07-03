@@ -58,22 +58,27 @@ nav ul li {
     display: flex;
 }
 
-.nav-list-right {
-    padding: 10px;
-    font-size: 18px;
-    margin: 0 10px;
-}
 
 .cart {
     margin: 10px;
     font-size: 25px;
 }
-
-.btn-nav {
+.btn-nav{
     border-radius: 15px;
-    border: none;
+    border: 2px solid rgb(214, 214, 153);
     cursor: pointer;
+    transition: 0.3s ease-in;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    color: rgb(129, 121, 79);
 }
+
+.btn-nav:hover {
+    background-color: var(--secondary-color);
+    color: lightgoldenrodyellow;
+}
+
 .right {
     display: flex;
     align-items: center;
