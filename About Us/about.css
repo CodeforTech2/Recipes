@@ -23,11 +23,13 @@ ul li {
 
 header {
     position: fixed;
+    z-index: 100;
     /* top: 0; */
     /* overflow: hidden; */
     width: 100%;
     box-shadow: 2px 0px 30px lightgoldenrodyellow;
 }
+
 nav ul {
     background-color: rgb(226, 226, 214);
     padding: 10px;
@@ -81,6 +83,108 @@ nav ul li {
 
 .about-us {
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 10vh;
 }
 
+
+
+.one {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    transform: rotate(-11deg);
+    border: 5px solid lightgoldenrodyellow;
+    /* box-shadow: 2px 0px 30px lightgoldenrodyellow; */
+}
+
+.two {
+    position: absolute;
+    right: 80px;
+    bottom: 100px;
+    transform: rotate(15deg);
+    border: 5px solid lightgoldenrodyellow;
+}
+
+.three {
+    position: absolute;
+    left: 80px;
+    bottom: 50px;
+    transform: rotate(-7deg);
+    border: 5px solid lightgoldenrodyellow;
+}
+
+.four {
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    transform: rotate(5deg);
+    border: 5px solid lightgoldenrodyellow;
+}
+
+
+
+.about-img img {
+    width: 20%;
+    max-height: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.description {
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    /* text-align: center; */
+    margin: 100px 0;
+    color: rgb(236, 5, 155);
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva;
+    font-style: italic;
+    letter-spacing: 3px;
+    margin: 50px;
+}
+
+
+/* ================================================= */
+
+footer {
+    background-color: rgb(61, 57, 57);
+}
+
+footer > ul {
+    color: rgb(160, 149, 149);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.footer-li {
+    padding: 0 70px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.footer-li:hover {
+    /* color: var(--secondary-color); */
+    color: rgb(236, 5, 155);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    color: var(--primary-color);
+}

@@ -148,6 +148,7 @@ img {
     height: 50%;
     /* height: auto; */
     object-fit: cover;
+    border: 5px solid lightgoldenrodyellow;
 }
 
 /* ================================================= */
@@ -180,6 +181,6 @@ footer > ul {
 
 .copyright {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     color: var(--primary-color);
 }

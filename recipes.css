@@ -49,7 +49,7 @@ nav ul li {
 }
 
 .nav-list:hover {
-    color: rgb(173, 18, 96);
+    color: rgb(236, 5, 155);
     transform: scale(1.1);
 }
 
@@ -217,6 +217,6 @@ footer > ul {
 
 .copyright {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     color: var(--primary-color);
 }
