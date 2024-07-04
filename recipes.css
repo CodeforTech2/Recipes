@@ -45,7 +45,6 @@ nav ul li {
 .nav-list {
     padding: 15px;
     font-size: 25px;
-    /* transition: 0.5s ease-in; */
 }
 
 .nav-list:hover {
@@ -57,9 +56,6 @@ nav ul li {
     display: flex;
 }
 
-.nav-list-right {
-   
-}
 
 .cart {
     margin: 10px;
