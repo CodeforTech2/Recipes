@@ -86,7 +86,7 @@ nav ul li {
 /* ===== Container menu ======= */
 
 .container-menu {
-    background-color: rgb(226, 226, 214);
+    /* background-color: rgb(226, 226, 214); */
     margin: 0 auto;
     max-width: 1500px;
     padding-top: 100px;
@@ -97,6 +97,9 @@ nav ul li {
     padding: 15px;
     bottom: 50px;
     left: 20px;
+    background-color: rgb(163, 43, 121);
+    border: none;
+    color: lightgoldenrodyellow;
 }
 
 
