@@ -88,10 +88,11 @@ nav ul li {
 
 .about-us {
     height: 100vh;
-    padding-top: 10vh;
+    max-width: 2000px;
+    /* padding-top: 100px; */
+    position: relative;
+    margin: 0 auto;
 }
-
-
 
 .one {
     position: absolute;
