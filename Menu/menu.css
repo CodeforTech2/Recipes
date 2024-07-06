@@ -38,7 +38,7 @@ nav ul {
     justify-content:space-between;
 }
 
-nav ul li {
+nav ul li, footer ul li {
     color: rgb(129, 121, 79);
 }
 
