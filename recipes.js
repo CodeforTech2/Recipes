@@ -1,4 +1,10 @@
 // - pricing page
 // - cart and logo symbol
 
-top.onclick = () => window.scrollTo({top: 0});
+let reset = document.getElementById('reset');
+
+reset.onclick = function() {
+    window.scrollTo(0 ,0);
+}
+
+// top.onclick = () => window.scrollTo({top: 0});
