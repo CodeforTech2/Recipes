@@ -8,3 +8,5 @@ reset.onclick = function() {
 }
 
 // top.onclick = () => window.scrollTo({top: 0});
+
+// start FreeCodeCamp projects part time
