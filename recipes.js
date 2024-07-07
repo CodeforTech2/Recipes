@@ -11,9 +11,7 @@ reset.onclick = function() {
 
 // start FreeCodeCamp projects part time
 
-let first = 2;
-first++;
+const string = "Helo, ";
+const str2 = "John!";
 
-console.log(first);
-
-console.log((4 + 6 + 9) / 77);
+console.log(str + str2);
