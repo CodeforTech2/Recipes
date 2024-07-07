@@ -93,6 +93,7 @@ nav ul li, footer ul li {
 }
 
 .arrow {
+    /* display: none; */
     position: fixed;
     padding: 15px;
     bottom: 20vh;
