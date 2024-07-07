@@ -95,7 +95,7 @@ nav ul li, footer ul li {
 .arrow {
     position: fixed;
     padding: 15px;
-    bottom: 50px;
+    bottom: 20vh;
     left: 20px;
     background-color: rgb(163, 43, 121);
     border: none;
