@@ -47,3 +47,11 @@ if (num1 > 2 || num2 > 10) {
 } else {
     console.log("Logical si False!");
 }
+
+let hour = 12;
+let minute = 30;
+
+if ( hour == 12 && minute == 30) {
+    console.log("Este ora 12:30");
+};
+
