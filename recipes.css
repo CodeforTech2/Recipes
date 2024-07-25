@@ -213,6 +213,7 @@ footer > ul {
     padding: 0 70px;
     font-size: 1.5rem;
     transition: 0.3s;
+    color: rgb(160, 149, 149);
 }
 
 .footer-li:hover {
