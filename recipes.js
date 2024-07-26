@@ -30,23 +30,6 @@ console.log(str.concat(str2));
 
 // alert (3 > 5);
 // alert ("test" == "test");
-console.log("test" != "test");
-console.log(2 > 3);
-
-let num1 = 3;
-let num2 = 5;
-
-if (num1 > num2) {
-    console.log("That's correct!");
-} else {
-    console.log("That's wrong!");
-}
-
-if (num1 > 2 || num2 > 10) {
-    console.log( "Logical si True!");
-} else {
-    console.log("Logical si False!");
-}
 
 let hour = 12;
 let minute = 30;
@@ -55,3 +38,25 @@ if ( hour == 12 && minute == 30) {
     console.log("Este ora 12:30");
 };
 
+
+function favoriteAnimal(animal = 'Rex') {
+    // return animal + " is my favorite animal!";
+    console.log(` ${animal} is my favorite animal!`);
+}
+
+favoriteAnimal("Labus");
+// console.log(favoriteAnimal('Labus'));
+
+let exemple = "aU IESIT niste BIscUITI buni"
+
+function capitalize(str) {
+    let lowStr =  str.toLocaleLowerCase();
+    return lowStr.replace(lowStr.charAt(0), lowStr.charAt(0).toUpperCase());
+}
+console.log(capitalize(exemple));
+
+function lastLetter(str) {
+    return str.charAt(str.length - 1);
+}
+
+console.log(lastLetter(exemple))
