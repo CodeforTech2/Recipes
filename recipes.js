@@ -44,3 +44,13 @@ function game(num) {
 }
 
 // game(5);
+
+// ==============================================================
+// Rock Paper Scissor
+// - Its a game between human and computer, who has to chose between rocl paper and scissors
+// - human choise its set by me on a variable
+// - computer choise it will be chosen by a function
+// - then will have  playRound function, where will get both human and computer choise, and it will by passed by some conditionals
+// - will have to store the score on 3 variables, one for human and one for computer and one for when it is a draw
+// - if human win the round, it will score 1 on his side, if computer wins it, will score 1 on his side, if its a draw the draw variable will get a score
+// - the first who get to score number 3, win the game.
