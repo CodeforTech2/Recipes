@@ -49,29 +49,48 @@ function game(num) {
 // Rock Paper Scissor
 // - Its a game between human and computer, who has to chose between rock paper and scissors
 // - human choise its set by me on a variable
-// - computer choise it will be chosen by a function
+// - computer choise it will be chosen by a function that will chose random from the 3 options
 // - then will have  playRound function, where will get both human and computer choise, and it will by passed by some conditionals
 // - will have to store the score on 3 variables, one for human and one for computer and one for when it is a draw
 // - if human wins the round, it will score 1 on his side, if computer wins it, will score 1 on his side, if its a draw the draw variable will get a score
 // - the first who get to score number 3, will win the game.
 
-let humanChoise = "paper";
-let computerChoise = "rock";
+let humanChoise = "rock";
+// let humanChoise = prompt("ceva");
+let humanScore = 0;
+let computerScore = 0;
+
+let computerChoise = function() {
+    let num =  Math.floor(Math.random() * 3);
+    if(num === 0) return "rock";
+    if(num === 1) return "paper";
+    if(num === 2) return "scissors";
+};
+
 
 function playRound(humanChoise, computerChoise) {
     if (humanChoise === "rock" && computerChoise === "paper") {
+        computerScore++;
         console.log("Paper beats Rock! Computer won!");
+        console.log(computerScore);
     } else if (humanChoise === "rock" && computerChoise === "scissors") {
+        humanScore++;
         console.log("Rock beats scissors! Human won!");
     } 
+
     else if (humanChoise === "paper" &&  computerChoise === "rock") {
+        humanScore++;
         console.log("Paper beats rock! Human won!")
     } else if (humanChoise === "paper" && computerChoise === "scissors") {
+        computerScore++;
         console.log("Scissors beats paper! Computer won!")
     } 
+
     else if (humanChoise === "scissors" &&  computerChoise === "rock") {
+        computerScore++;
         console.log("Rock beats scissors! Computer won!")
     } else if (humanChoise === "scissors" && computerChoise === "paper") {
+        humanScore++;
         console.log("Scissors beats paper! Human won!")
     }
 
@@ -80,4 +99,10 @@ function playRound(humanChoise, computerChoise) {
     }
 }
 
-playRound(humanChoise, computerChoise);
+playRound(humanChoise, computerChoise());
+
+if (humanScore === 3) {
+    console.log(`Human won the game! The score is ${humanScore} - ${computerScore}`)
+} else if (computerScore === 3) {
+    console.log(`Computer won the game! The score is ${computerScore} - ${humanScore}`)
+}
