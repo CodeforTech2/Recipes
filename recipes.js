@@ -55,8 +55,8 @@ function game(num) {
 // - if human wins the round, it will score 1 on his side, if computer wins it, will score 1 on his side, if its a draw the draw variable will get a score
 // - the first who get to score number 3, will win the game.
 
-let humanChoise = "rock";
-let computerChoise = "paper";
+let humanChoise = "paper";
+let computerChoise = "rock";
 
 function playRound(humanChoise, computerChoise) {
     if (humanChoise === "rock" && computerChoise === "paper") {
@@ -67,14 +67,14 @@ function playRound(humanChoise, computerChoise) {
     else if (humanChoise === "paper" &&  computerChoise === "rock") {
         console.log("Paper beats rock! Human won!")
     } else if (humanChoise === "paper" && computerChoise === "scissors") {
-        console.log("Rock beats scissors! Computer won!")
+        console.log("Scissors beats paper! Computer won!")
     } 
     else if (humanChoise === "scissors" &&  computerChoise === "rock") {
-        console.log("Paper beats rock! Human won!")
-    } else if (humanChoise === "scissors" && computerChoise === "scissors") {
         console.log("Rock beats scissors! Computer won!")
+    } else if (humanChoise === "scissors" && computerChoise === "paper") {
+        console.log("Scissors beats paper! Human won!")
     }
-    
+
     if (humanChoise === computerChoise) {
         console.log("it's a draw!");
     }
