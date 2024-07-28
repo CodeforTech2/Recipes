@@ -60,12 +60,21 @@ let computerChoise = "paper";
 
 function playRound(humanChoise, computerChoise) {
     if (humanChoise === "rock" && computerChoise === "paper") {
-        console.log("Computer won!");
+        console.log("Paper beats Rock! Computer won!");
     } else if (humanChoise === "rock" && computerChoise === "scissors") {
-        console.log("Human won!")
-    } else if (computerChoise === "rock" && humanChoise === "paper") {
-        console.log("")
+        console.log("Rock beats scissors! Human won!");
+    } 
+    else if (humanChoise === "paper" &&  computerChoise === "rock") {
+        console.log("Paper beats rock! Human won!")
+    } else if (humanChoise === "paper" && computerChoise === "scissors") {
+        console.log("Rock beats scissors! Computer won!")
+    } 
+    else if (humanChoise === "scissors" &&  computerChoise === "rock") {
+        console.log("Paper beats rock! Human won!")
+    } else if (humanChoise === "scissors" && computerChoise === "scissors") {
+        console.log("Rock beats scissors! Computer won!")
     }
+    
     if (humanChoise === computerChoise) {
         console.log("it's a draw!");
     }
