@@ -69,6 +69,7 @@ let computerChoise = function() {
 
 
 function playRound(humanChoise, computerChoise) {
+
     if (humanChoise === "rock" && computerChoise === "paper") {
         computerScore++;
         console.log("Paper beats Rock! Computer won!");
@@ -97,12 +98,32 @@ function playRound(humanChoise, computerChoise) {
     if (humanChoise === computerChoise) {
         console.log("it's a draw!");
     }
+
+    if (humanScore === 3) {
+        console.log(`Human won the game! The score is ${humanScore} - ${computerScore}`)
+    } else if (computerScore === 3) {
+        console.log(`Computer won the game! The score is ${computerScore} - ${humanScore}`)
+    }
+
 }
 
-playRound(humanChoise, computerChoise());
+// playRound(humanChoise, computerChoise());
 
-if (humanScore === 3) {
-    console.log(`Human won the game! The score is ${humanScore} - ${computerScore}`)
-} else if (computerScore === 3) {
-    console.log(`Computer won the game! The score is ${computerScore} - ${humanScore}`)
+// if (humanScore === 3) {
+//     console.log(`Human won the game! The score is ${humanScore} - ${computerScore}`)
+// } else if (computerScore === 3) {
+//     console.log(`Computer won the game! The score is ${computerScore} - ${humanScore}`)
+// }
+
+
+let num1 = 0;
+
+for (let i = 0; i < 100; i++) {
+    // console.log(i);
+    if (num1 === 3) {
+        console.log("num1 = 3");
+        break;
+    }
+    console.log(num1);
+    num1++;
 }
