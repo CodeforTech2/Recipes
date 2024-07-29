@@ -19,7 +19,7 @@ function capitalize(str) {
     let lowStr =  str.toLocaleLowerCase();
     return lowStr.replace(lowStr.charAt(0), lowStr.charAt(0).toUpperCase());
 }
-console.log(capitalize(exemple));
+// console.log(capitalize(exemple));
 
 function lastLetter(str) {
     return str.charAt(str.length - 1);
@@ -68,44 +68,44 @@ let computerChoise = function() {
 };
 
 
-function playRound(humanChoise, computerChoise) {
+// function playRound(humanChoise, computerChoise) {
 
-    if (humanChoise === "rock" && computerChoise === "paper") {
-        computerScore++;
-        console.log("Paper beats Rock! Computer won!");
-        console.log(computerScore);
-    } else if (humanChoise === "rock" && computerChoise === "scissors") {
-        humanScore++;
-        console.log("Rock beats scissors! Human won!");
-    } 
+//     if (humanChoise === "rock" && computerChoise === "paper") {
+//         computerScore++;
+//         console.log("Paper beats Rock! Computer won!");
+//         console.log(computerScore);
+//     } else if (humanChoise === "rock" && computerChoise === "scissors") {
+//         humanScore++;
+//         console.log("Rock beats scissors! Human won!");
+//     } 
 
-    else if (humanChoise === "paper" &&  computerChoise === "rock") {
-        humanScore++;
-        console.log("Paper beats rock! Human won!")
-    } else if (humanChoise === "paper" && computerChoise === "scissors") {
-        computerScore++;
-        console.log("Scissors beats paper! Computer won!")
-    } 
+//     else if (humanChoise === "paper" &&  computerChoise === "rock") {
+//         humanScore++;
+//         console.log("Paper beats rock! Human won!")
+//     } else if (humanChoise === "paper" && computerChoise === "scissors") {
+//         computerScore++;
+//         console.log("Scissors beats paper! Computer won!")
+//     } 
 
-    else if (humanChoise === "scissors" &&  computerChoise === "rock") {
-        computerScore++;
-        console.log("Rock beats scissors! Computer won!")
-    } else if (humanChoise === "scissors" && computerChoise === "paper") {
-        humanScore++;
-        console.log("Scissors beats paper! Human won!")
-    }
+//     else if (humanChoise === "scissors" &&  computerChoise === "rock") {
+//         computerScore++;
+//         console.log("Rock beats scissors! Computer won!")
+//     } else if (humanChoise === "scissors" && computerChoise === "paper") {
+//         humanScore++;
+//         console.log("Scissors beats paper! Human won!")
+//     }
 
-    if (humanChoise === computerChoise) {
-        console.log("it's a draw!");
-    }
+//     if (humanChoise === computerChoise) {
+//         console.log("it's a draw!");
+//     }
 
-    if (humanScore === 3) {
-        console.log(`Human won the game! The score is ${humanScore} - ${computerScore}`)
-    } else if (computerScore === 3) {
-        console.log(`Computer won the game! The score is ${computerScore} - ${humanScore}`)
-    }
+//     if (humanScore === 3) {
+//         console.log(`Human won the game! The score is ${humanScore} - ${computerScore}`)
+//     } else if (computerScore === 3) {
+//         console.log(`Computer won the game! The score is ${computerScore} - ${humanScore}`)
+//     }
 
-}
+// }
 
 // playRound(humanChoise, computerChoise());
 
@@ -116,14 +116,36 @@ function playRound(humanChoise, computerChoise) {
 // }
 
 
+
 let num1 = 0;
 
-for (let i = 0; i < 100; i++) {
-    // console.log(i);
-    if (num1 === 3) {
-        console.log("num1 = 3");
-        break;
+
+
+    function test1(humanChoise, computerChoise) {
+        for (let i = 0; i < 10; i++) {
+            if (num1 === 3) {
+                console.log("num1 = 3");
+                break;
+            }
+
+            if (humanChoise === "rock" && computerChoise === "paper") {
+                num1 = i + 1;
+                // console.log("Paper beats Rock! Computer won!");
+                console.log(num1);
+            }
+        }
     }
-    console.log(num1);
-    num1++;
+   
+
+
+test1(humanChoise, computerChoise());
+
+let nr = 0;
+
+for (let i = 0; i < 10; i++) {
+    if ( i ===3) {break};
+    // console.log("The number is " + i);
+    nr = i + 1;
+    // console.log(nr);
+
 }
